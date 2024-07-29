@@ -1,0 +1,13 @@
+/* src/components/Banner.css */
+.banner {
+    background-color: #18191a;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+  }

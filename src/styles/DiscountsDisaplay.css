@@ -1,0 +1,30 @@
+/* src/styles/DiscountsDisplay.css */
+.discounts-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    max-height: 400px; /* Ajusta la altura según tus necesidades */
+    overflow-y: auto;
+  }
+  
+  .discount-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-discount {
+    font-style: italic;
+    color: #d9534f; /* Color rojo para resaltar los descuentos */
+  }
