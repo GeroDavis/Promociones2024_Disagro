@@ -85,7 +85,7 @@ const App: React.FC = () => {
     console.log(clientDataToSend);
 
     try {
-      const response = await fetch('https://your-backend-api/clients', {
+      const response = await fetch('https://us-central1-ardent-gate-430705-p3.cloudfunctions.net/insert_data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
